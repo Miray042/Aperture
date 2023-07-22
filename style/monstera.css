@@ -1,0 +1,39 @@
+
+
+.monstera__wrapper {
+    position: relative;
+    background-image: url('../img/fifth-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.monstera__title {
+    color: var(--white);
+    font-family: var(--PR);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.monstera__desc {
+    color: var(grey);
+    font-family: var(--PR);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.monstera__text {
+    right: 59px;
+    top: 50%;
+    position: absolute;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}

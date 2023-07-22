@@ -1,0 +1,39 @@
+.sunset {
+    background-image: url('../img/third-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.sunset__titel {
+    color: var(--white);
+    font-family: var(--pr);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sunset__desc {
+    color: var(--grey);
+    font-family: var(--PR);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.sunset__wrapper {
+    position: relative;
+    height: 80vh;
+}
+
+.sunset__text {
+    position: absolute;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    right: 40px;
+}

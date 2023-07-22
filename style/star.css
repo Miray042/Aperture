@@ -1,0 +1,38 @@
+
+.star__wrapper {
+    height: 80vh;
+    position: relative;
+    background-image: url('../img/last-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.star__title {
+    color: var(--white);
+    font-family: var(--PR);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.star__desc {
+    color: var(--gery);
+    font-family: var(--PR);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.star__text {
+    right: 59px;
+    top: 50%;
+    position: absolute;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}

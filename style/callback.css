@@ -1,0 +1,40 @@
+.callback__wrapper {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+
+.callback__title {
+    color: var(--white);
+    text-align: center;
+    font-family: var(--PR);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.callback__desc {
+    color: var(--grey);
+    text-align: center;
+    font-family: var(--PR);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 7px;
+
+}
+
+.callback__btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+}
+
+.callback__text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}

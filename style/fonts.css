@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'IR';
+    src: url('../fonts/Inter-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'PR';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype'),
+}

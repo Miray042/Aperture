@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+:root {
+    --IR: "IR, sans-serif";
+    --PR: "PR, sans-serif";
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #C0C0C0;
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+}
+
+
+
+/* Global */
+
+.btn {
+    outline: none;
+    border: none;
+    background: var(--white);
+    padding: 11px 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
